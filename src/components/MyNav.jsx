@@ -2,7 +2,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 
 const MyNav = (props) => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" className='fixed-top'>
+    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" className=''>
       <Container fluid={props.isFluid || true}>
         <Navbar.Brand href="#home">Epi-Library</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
