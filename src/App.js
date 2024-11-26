@@ -1,7 +1,10 @@
-import './App.css';
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Container, Row, Col } from 'react-bootstrap';
-import MyNav from './components/MyNav';
+import { Container, Row, Col } from 'react-bootstrap'
+import MyNav from './components/MyNav'
+import MyFooter from './components/MyFooter'
+import MyWelcome from './components/MyWelcome'
+import AllTheBooks from './components/AllTheBooks'
 
 function App() {
   return (
@@ -9,8 +12,21 @@ function App() {
       <header>
         <MyNav isFluid={true} />
       </header>
+      <MyWelcome />
+      <main>
+        <Container>
+          <Row className="mt-3">
+            <Col className='col-12 col-md-6 col-lg-12'>
+              <AllTheBooks />
+            </Col>
+          </Row>
+        </Container>
+      </main>
+      <footer>
+        <MyFooter isFluid={true} />
+      </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

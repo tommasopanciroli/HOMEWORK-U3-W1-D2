@@ -1,11 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 
 const MyNav = (props) => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
       <Container fluid={props.isFluid || true}>
-        <Navbar.Brand href="#home">Kindle Library</Navbar.Brand>
+        <Navbar.Brand href="#home">Epi-Library</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
