@@ -7,7 +7,7 @@ class AllTheBooks extends Component {
     return (
         <div className='d-flex flex-wrap'> {book.map((libro)=>(
              <Card style={{ width: '18rem', margin: '1em' }} key={libro.asin}>
-             <Card.Img variant="top" src={libro.img} alt={book.title}/>
+             <Card.Img variant="top" src={libro.img} alt={libro.title}/>
              <Card.Body>
                <Card.Title >{libro.title}</Card.Title>
                <Card.Text>

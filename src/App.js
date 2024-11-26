@@ -15,7 +15,7 @@ function App() {
       <MyWelcome />
       <main>
         <Container>
-          <Row className="mt-3">
+          <Row className="mt-3 d-flex justify-content-center">
             <Col className='col-12 col-md-6 col-lg-12'>
               <AllTheBooks />
             </Col>
