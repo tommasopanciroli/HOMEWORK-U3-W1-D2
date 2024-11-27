@@ -4,7 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 import MyNav from './components/MyNav'
 import MyFooter from './components/MyFooter'
 import MyWelcome from './components/MyWelcome'
-import AllTheBooks from './components/AllTheBooks'
+import SingleBook from './components/SingleBook'
+import BookList from './components/BookList'
+
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
         <Container>
           <Row className="mt-3 d-flex justify-content-center">
           
-              <AllTheBooks />
+            <SingleBook />
+             {/* <BookList /> */}
             
           </Row>
         </Container>
