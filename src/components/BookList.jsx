@@ -8,7 +8,7 @@ import SingleBook from './SingleBook'
 
 
 const BookList = () => {
-  return HorrorList.map((book) => <SingleBook key={book.asin} libro={book} />);
+  return HorrorList.map((book) => <SingleBook key={book.asin} libri={book} />);
 };
 
 
